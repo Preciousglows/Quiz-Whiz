@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.quiz-h1{
+    @apply text-4xl my-6 font-light text-slate-400 drop-shadow-sm font-poppins;
+}
+
+.quiz-ul{
+    @apply flex flex-col gap-3 my-4;
+}
+
+
+.header-div{
+    @apply flex justify-between border px-4 py-6 gap-5 items-end bg-green-300;
+}
+.header-h1{
+    @apply text-3xl text-white drop-shadow-md;
+}
+.header-text{
+    @apply flex  items-end;
+}
+.header-icon{
+    @apply w-1/5;
+}
+.counter{
+    @apply text-white text-xl drop-shadow-md;
+}
+
+
+
+.quiz-li{
+    @apply flex justify-between text-xl border-2 px-4 py-2 border-blue-200 shadow-md;
+}
+
+.quiz-label{
+    @apply  drop-shadow-md w-full;
+}
+
+
+
+.bottom-div{
+    @apply md:flex-row flex flex-col justify-between gap-5 md:gap-0 md:items-center mt-5;
+}
+
+.bottom-btns{
+    @apply bg-green-300 drop-shadow-md hover:bg-blue-500 px-4 py-2 text-white shadow-md rounded-md;
+}
+
+
+
+.question-container{
+    @apply  px-6 py-2 ;
+}
+
+
+
+.summary-body{
+    @apply px-6 py-2 text-center;
+}
+
+.summary-btn{
+    @apply bg-green-300 drop-shadow-md hover:bg-blue-500 px-4 py-2 text-white shadow-md rounded-md;
+}
+
+.summary-p{
+    @apply text-center border inline-block border-green-300 drop-shadow-md;
+}
+
+.summary-h2{
+    @apply text-center text-2xl py-5 border my-5 border-green-300 drop-shadow-md;
+}
+
+.summary-h3{
+    @apply text-center border  my-5 border-green-300 drop-shadow-md;
+}
+
+.timer-div{
+    @apply flex gap-2 items-center justify-center border rounded-md py-2 px-4 shadow-md;
+}
+
+.timer-span{
+    @apply text-white text-2xl drop-shadow-md tracking-widest;
+}
